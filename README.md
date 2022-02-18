@@ -9,7 +9,7 @@ This project is a simple travellng website as part of CFG JavaScript course by t
 - Hannah Phillips
 - Deborah Leem
 
-## Installstion
+## Installation
 
 
 ## License
