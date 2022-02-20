@@ -137,7 +137,44 @@
   }
 }
 
+/* parallax effect starts */
+
+.parallax {
+  background-image: url(./assets/background.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.parallax-container {
+  min-height: 600px;
+}
+
+.parallax-container-title {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.parallax-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+/* parallax effect ends */
+
 /* About section style  */
+
+.about-site-section-top {
+  background-color: var(--white);
+  margin-top: 200px;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
 
 .about-site-section {
   position: relative;
