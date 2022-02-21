@@ -325,8 +325,6 @@
 /* footer style */
 
 .footer-container {
-  position: relative;
-  bottom: 0;
   background-color: var(--grey);
   padding: 4rem 0 2rem 0;
   width: 100%;
@@ -402,4 +400,37 @@
 .footer-copy {
   font-weight: 200;
   color: var(--lightgrey);
+}
+
+/*Deb's contact page */
+body {
+  font-family: font-family: "Poppins", sans-serif;
+}
+* {box-sizing: border-box;}
+
+iframe {
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+/*Deb's contact page ends here*/
+
+
+body {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
