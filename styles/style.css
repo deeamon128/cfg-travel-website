@@ -140,7 +140,7 @@
 /* parallax effect starts */
 
 .parallax {
-  background-image: url(./assets/background.jpg);
+  background-image: url(/assets/background.jpg);
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -325,6 +325,8 @@
 /* footer style */
 
 .footer-container {
+  position: relative;
+  bottom: 0;
   background-color: var(--grey);
   padding: 4rem 0 2rem 0;
   width: 100%;
@@ -403,34 +405,25 @@
 }
 
 /*Deb's contact page */
-body {
-  font-family: font-family: "Poppins", sans-serif;
+
+.contact-site-section {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-color: var(--white);
+  margin-top: 200px;
 }
-* {box-sizing: border-box;}
+
+.contact-container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
 
 iframe {
   margin: auto;
   display: block;
 }
 
-h1 {
-  text-align: center;
-  font-weight: 500;
-}
-
 /*Deb's contact page ends here*/
-
-
-body {
-  background-image: url('../assets/background.jpg');
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1;
-}
