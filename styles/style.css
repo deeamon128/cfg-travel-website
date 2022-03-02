@@ -177,7 +177,8 @@
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 .fade {
@@ -188,21 +189,32 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.dots { 
-  text-align:center; 
+.dots {
+  text-align: center;
   margin-top: -20px;
 }
 
-img {vertical-align: middle;height: 225px;}
+img {
+  vertical-align: middle;
+  height: auto;
+}
 
 /* parallax effect starts */
 
@@ -232,6 +244,53 @@ img {vertical-align: middle;height: 225px;}
 }
 
 /* parallax effect ends */
+
+/* Index section */
+
+.index-container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.index-divison {
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.index-img {
+  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.index-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--black);
+  margin-top: 100px;
+}
+
+.index-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--rose);
+  margin-bottom: 20px;
+}
+/* Index section */
 
 /* About section style  */
 
@@ -342,7 +401,8 @@ img {vertical-align: middle;height: 225px;}
 
 .about-profile-pic {
   margin-bottom: 1.5rem;
-  width: 50%;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
 }
 
@@ -495,7 +555,6 @@ iframe {
 
 /*Deb's contact page ends here*/
 
-
 /* Hannah's Destination Page Starts Here*/
 
 .destinations {
@@ -504,18 +563,18 @@ iframe {
 }
 
 .paris {
-width: 100%;
-height: 225px;
+  width: 100%;
+  height: 225px;
 }
 
 .sydney {
   width: 100%;
-  height: 225px;  
+  height: 225px;
 }
 
 .sanfran {
   width: 100%;
-height: 225px;
+  height: 225px;
 }
 
 /* Hannah's Destination Page Ends Here*/
