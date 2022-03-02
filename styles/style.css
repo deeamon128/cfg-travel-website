@@ -494,3 +494,28 @@ iframe {
 }
 
 /*Deb's contact page ends here*/
+
+
+/* Hannah's Destination Page Starts Here*/
+
+.destinations {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.paris {
+width: 100%;
+height: 225px;
+}
+
+.sydney {
+  width: 100%;
+  height: 225px;  
+}
+
+.sanfran {
+  width: 100%;
+height: 225px;
+}
+
+/* Hannah's Destination Page Ends Here*/
